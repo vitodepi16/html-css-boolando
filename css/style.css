@@ -86,7 +86,7 @@ display: block;
 }
 .img-2{
     position: absolute;
-    display: none;
+    display: block;
     width: 100%;
     top: 0;
 }
