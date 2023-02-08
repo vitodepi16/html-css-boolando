@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    /* Color styles */
+--header: rgba(255, 105, 0, 1);
+--footer: rgba(26, 26, 26, 1);
+--sostenabilty: rgba(0, 128, 0, 1);
+--discount: rgba(255, 0, 0, 1);
+--bg-white: rgba(255, 255, 255, 1);
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    background-color: var(--header);
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
