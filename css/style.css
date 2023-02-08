@@ -52,8 +52,8 @@ h4 {
     color: lightgray;
 }
 
-.discount {
-    color: red;
+.final-price {
+   color: red;
 }
 
 .ex-price {
@@ -86,6 +86,29 @@ h4 {
 }
 
 /* main */
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: var(--discount);
+    min-width: 50px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+.sostenability{
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    background-color: var(--sostenabilty);
+    min-width: 100px;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
 .img {
     width: 100%;
 }
