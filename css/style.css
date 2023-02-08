@@ -75,12 +75,16 @@ h4{
 /* main */
 .img{
     width: 100%;
-    display:hidden;
 
 }
 .box-img:hover{
-position: absolute;
-background-image: url("../img/1b.webp");
+position: relative;
+display: block;
+
+}
+.img-2{
+    position: absolute;
+    display: none;
 }
 /* Footer */
 
