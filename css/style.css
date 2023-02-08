@@ -75,7 +75,9 @@ h4{
 /* main */
 .img{
     width: 100%;
-
+}
+.box-img{
+    position: relative;
 }
 .box-img:hover .img-2{
 position: relative;
@@ -85,6 +87,8 @@ display: block;
 .img-2{
     position: absolute;
     display: none;
+    width: 100%;
+    top: 0;
 }
 /* Footer */
 
