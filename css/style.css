@@ -18,6 +18,22 @@
     width: 80%;
     margin: 0 auto;
 }
+.flex-left{
+    display: flex;
+    flex-flow: row ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* text */
+h4{
+    color: lightgray;
+}
+.discount{
+    color: red;
+}
+.ex-price{
+    color: lightgray;
+}
 /* header */
 .header{
     background-color: var(--header);
@@ -28,4 +44,20 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
+}
+.item{
+    width: calc(100% / 3 - 50px);
+  
+    display: inline-block;
+}
+/* main */
+.img{
+    width: 300px;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--footer);
 }
