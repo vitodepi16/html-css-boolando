@@ -28,9 +28,9 @@ a:active {
   a:hover {
     text-decoration: underline;
 }
-/* .debug{ 
+.debug{ 
     border: 1px solid black;
-} */
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -76,21 +76,11 @@ h4{
 .img{
     width: 100%;
     display:hidden;
-}
-.img:hover { 
-    background-image: url("../img/1b.webp");
-    display: block;
-}
 
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
+}
+.box-img:hover{
+position: absolute;
+background-image: url("../img/1b.webp");
 }
 /* Footer */
 
