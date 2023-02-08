@@ -88,16 +88,21 @@ h2{
 
 }
 
+
+/* main */
+
 .item {
     width: calc(100% / 3 - 50px);
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-/* main */
-
-.discount{
+.ban{
     position: absolute;
+    bottom: 80px;
+}
+.discount{
+ 
     left: 0;
     bottom: 40px;
     background-color: var(--discount);
@@ -105,18 +110,18 @@ h2{
     text-align: center;
     color: white;
     font-size: small;
-    display: in;
+    display: inline-block;
 }
 
 .sostenability{
-    position: absolute;
-    left: 60px;
+   
     bottom: 40px;
     background-color: var(--sostenabilty);
     min-width: 100px;
     text-align: center;
     color: white;
     font-size: small;
+    display: inline-block;
 }
 
 .hearts{
