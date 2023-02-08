@@ -30,7 +30,7 @@ a:active {
 }
 /* .debug{ 
     border: 1px solid black;
-/* } */
+} */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -56,7 +56,11 @@ h4{
     background-color: var(--header);
     width: 100%;
 }
-
+.img-title{
+    width: 150px;
+    display: flex;
+    align-items: center ;
+}
 .nav{
     display: flex;
     flex-flow: row wrap;
@@ -65,14 +69,29 @@ h4{
 }
 .item{
     width: calc(100% / 3 - 50px);
-  
     display: inline-block;
+    padding: 50px;
 }
 /* main */
 .img{
-    width: 300px;
+    width: 100%;
+    display: block;
+}
+.img:hover { 
+    background-image: url("../img/1b.webp");
+    display: block;
 }
 
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
 /* Footer */
 
 footer{
