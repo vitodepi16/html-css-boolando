@@ -30,6 +30,11 @@ a:active {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+i:hover, i:active{
+    text-decoration: underline;
+    cursor: pointer;
 }
 i{
     padding-right: 10px; ;
@@ -85,7 +90,9 @@ h2{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
+}
+.sex{
+    margin-right: -90px;
 }
 
 
@@ -99,7 +106,7 @@ h2{
 
 .ban{
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
 }
 .discount{
  
@@ -132,8 +139,11 @@ h2{
     top: 20px;
     text-align: center;
     color: black;
+    cursor: pointer;
 }
-
+.hearts:hover {
+    color: red;
+}
 .img {
     width: 100%;
 }
@@ -141,6 +151,7 @@ h2{
 .box-img {
     position: relative;
     top: 0;
+    cursor: pointer;
 }
 
 .img-2 {
@@ -151,8 +162,9 @@ h2{
     display: none;
 }
 
-.box-img:hover .img-2 {
+.box-img:hover .img-2{
     display: block;
+    color: red;
 }
 
 /* Footer */
@@ -174,4 +186,8 @@ footer {
 
 .pad {
     padding: 10px;
+    color: white;
+}
+.social{
+    color: white;
 }
